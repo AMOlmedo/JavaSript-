@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pildoras-js</title>
+    <style>
+
+    </style>
+    <script>
+
+        function dia(){
+            var hoy=new Date();
+            document.write(hoy.toDateString());
+        }
+
+        var nombre =prompt("ingresa nombre:");
+
+        function escribe(nombre){
+            
+            document.write(nombre);
+           
+       }
+      
+    </script>
+</head>
+<body class="centrado">
+    <H1 style="text-align: center;"><strong> que dia es hoy??</strong></H1>
+    <p> hoy es : <script> dia();</script>  </p>
+
+    <p> hoy tambien es  <script>  dia();  </script></p>
+
+    <p style="font-size: 24px; font-weight:bold">hola <script> escribe(nombre);</script>, bienvenido</p>
+    <p> esto es una funcion <script> escribe(nombre);</script> </p>
+
+    
+</body>
+</html>
