@@ -1,1 +1,3 @@
-Informacion relevante al curso de JavaSript Curso Pildoras Informaticas
+Informacion relevante al curso de JavaSript Curso Pildoras Informaticas.
+
+curso basico
